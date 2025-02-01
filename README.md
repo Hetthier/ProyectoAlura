@@ -1,25 +1,51 @@
-# ProyectoAlura - Amigo secreto
+Proyecto Alura - Amigo Secreto
+Este repositorio contiene el proyecto completo de "Selección de Amigo Secreto", tal y como se describe en la plataforma.
 
-Dentro de este repositorio se encuentra el poryecto completo de "seleccion amigo secreto", tal y como se estipula en la plataforma.
-Funcionalidad: 
-La aplicacion permite a los usuario ingresar nombre de amigos a una lista y seleccionar a cualquiera de los ingresados de forma aleatoria para ser "amigo secreto"
-Ingresando el nombre de cada amigo dentro del grupo "Adicionar".
-El usuario se le asigna el amigo tras accionar el sistema  "Sortear Amigo". 
+Funcionalidad
+La aplicación permite a los usuarios ingresar nombres de amigos en una lista y seleccionar a uno de ellos de forma aleatoria para ser el "amigo secreto". Los nombres se ingresan en el campo "Adicionar". El usuario recibe el nombre del amigo secreto al accionar el sistema "Sortear Amigo". Todo el proceso se muestra en pantalla.
 
-Todo el proceso en pantalla.
+Funcionalidades
+1. Agregar nombres
+Los usuarios pueden escribir el nombre de un amigo en un campo de texto y agregarlo a una lista visible al hacer clic en "Adicionar".
 
-Fucionalidades:
-Agregar nombres: Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar". 
-Funcion relacionada en codigo: agregarAmigo().
+Función relacionada en el código: agregarAmigo().
 
-Validar entrada: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
-Funcion relacionada en codigo: agregarAmigo()
+2. Validar entrada
+Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
 
-Visualizar la lista: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
-Funcion relacionada en codigo: mostrarLista()
+Función relacionada en el código: agregarAmigo().
 
-Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
-Funcion relacionada en codigo: sortearAmigo(), escribirResultado(nombreGanador)
+3. Visualizar la lista
+Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
 
+Función relacionada en el código: mostrarLista().
+
+4. Sorteo aleatorio
+Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
+
+Funciones relacionadas en el código: sortearAmigo(), escribirResultado(nombreGanador).
+
+
+Cómo Usar
+Ingresar nombres:
+
+Escribe el nombre de un amigo en el campo de texto y haz clic en "Adicionar" para agregarlo a la lista.
+
+Realizar el sorteo:
+
+Una vez que hayas agregado todos los nombres, haz clic en "Sortear Amigo" para seleccionar un nombre de la lista de forma aleatoria.
+
+Ver el resultado:
+
+El nombre del amigo secreto seleccionado se mostrará en la pantalla.
+
+Ejemplo de Uso
+Ingresa "Juan" en el campo de texto y haz clic en "Adicionar".
+
+Ingresa "María" en el campo de texto y haz clic en "Adicionar".
+
+Haz clic en "Sortear Amigo" para seleccionar un nombre de la lista.
+
+El nombre seleccionado (por ejemplo, "María") se mostrará en la pantalla.
 
 
